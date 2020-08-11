@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+   <title>How get client ip address using javascript !</title>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+</head>
+<body>
+
+<h1>IP Address </h1>
+<span id="ip"></span>
+
+
+<script type="text/javascript">
+$.getJSON("http://jsonip.com?callback=?", function (response) {
+$("Wip").text(response.ip);
+});
+
+</script>
+</body>
+</html>
