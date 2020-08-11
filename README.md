@@ -15,4 +15,4 @@ Linux:
 5-sudo apt install php(if give you a error download php from website)
 6-php -S localhost:4000
 
-Something like linux for Mac OS users
+Same thing like linux for Mac OS users
